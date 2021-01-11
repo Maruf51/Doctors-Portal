@@ -1,0 +1,67 @@
+.contact {
+    margin-top: 75px;
+    background: linear-gradient(#203047f2, #203047f2), url("../../../images/Mask\ Group\ 4.png");
+    background-size: cover;
+    height: 550px;
+
+    .container {
+
+        h3 {
+            color: #5FC7C7;
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 15px;
+            text-align: center;
+            padding-top: 45px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-weight: 500;
+            font-size: 34px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+
+            input, textarea {
+                width: 45%;
+                border: 0;
+                font-size: 14px;
+                padding: 14px 20px;
+                margin: auto;
+                margin-bottom: 15px;
+                outline: none;
+                font-weight: 500;
+                border-bottom: 2px solid #f96539;
+                transition: .3s;
+
+                &:focus {
+                    border-bottom: 2px solid #39f9cd;
+                }
+
+                &::placeholder {
+                    color: #B4B3B6;
+                }
+            }
+
+            textarea {
+                height: 120px;
+            }
+
+            button {
+                width: 150px;
+                height: 40px;
+                border: 0;
+                font-size: 14px;
+                color: white;
+                margin: auto;
+            }
+        }
+    }
+}

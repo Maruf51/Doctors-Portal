@@ -1,0 +1,132 @@
+.main_blog {
+    padding-top: 75px;
+    padding-bottom: 50px;
+
+    h3 {
+        color: #5FC7C7;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .blogs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        .blog {
+            width: 31%;
+            border: 0;
+            box-shadow: 0 0 5px #e6e6e6;
+            border-radius: 5px;
+            position: relative;
+
+            &:hover .visible {
+                opacity: 0;
+            }
+
+            &:hover .hidden {
+                opacity: 1;
+            }
+
+
+
+            .visible {
+                padding: 30px 25px;
+                border-radius: 5px;
+                transition: .5s;
+            
+                .detail {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+
+                    .in_detail {
+                        margin-left: 15px;
+
+                        h5 {
+                            color: #3C3C3E;
+                            font-size: 17px;
+                            font-weight: 600;
+                        }
+
+                        p {
+                            margin: 0;
+                            color: #B3B2B5;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                h4 {
+                    color: #3C3C3E;
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-top: 25px;
+                }
+
+                p {
+                    color: #B3B2B5;
+                    font-size: 13px;
+                    margin-top: 20px;
+                }
+            }
+
+            .hidden {
+                padding: 30px 25px;
+                opacity: 0;
+                height: 100%;
+                color: white;
+                border-radius: 5px;
+                position: absolute;
+                z-index: 0;
+                top: 0;
+                transition: .5s;
+
+                .in_hidden {
+                    h5 {
+                        font-size: 15px;
+                    }
+    
+                    h6 {
+                        font-size: 11px;
+                    }
+    
+                    h4 {
+                        margin-top: 30px;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+    
+                    svg {
+                        margin-top: 65px;
+                        width: 30px;
+                        height: 30px;
+                        cursor: pointer;
+                    }
+                }
+
+                .quot {
+                    position: absolute;
+                    top: 60px;
+                    right: 25px;
+                    width: 180px;
+                    height: 150px;
+                    opacity: .4;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

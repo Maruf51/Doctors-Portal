@@ -1,0 +1,84 @@
+.contact {
+  margin-top: 75px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#203047f2), to(#203047f2)), url("../../../images/Mask Group 4.png");
+  background: linear-gradient(#203047f2, #203047f2), url("../../../images/Mask Group 4.png");
+  background-size: cover;
+  height: 550px;
+}
+
+.contact .container h3 {
+  color: #5FC7C7;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.contact .container h1 {
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 34px;
+}
+
+.contact .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+.contact .container form input, .contact .container form textarea {
+  width: 45%;
+  border: 0;
+  font-size: 14px;
+  padding: 14px 20px;
+  margin: auto;
+  margin-bottom: 15px;
+  outline: none;
+  font-weight: 500;
+  border-bottom: 2px solid #f96539;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.contact .container form input:focus, .contact .container form textarea:focus {
+  border-bottom: 2px solid #39f9cd;
+}
+
+.contact .container form input::-webkit-input-placeholder, .contact .container form textarea::-webkit-input-placeholder {
+  color: #B4B3B6;
+}
+
+.contact .container form input:-ms-input-placeholder, .contact .container form textarea:-ms-input-placeholder {
+  color: #B4B3B6;
+}
+
+.contact .container form input::-ms-input-placeholder, .contact .container form textarea::-ms-input-placeholder {
+  color: #B4B3B6;
+}
+
+.contact .container form input::placeholder, .contact .container form textarea::placeholder {
+  color: #B4B3B6;
+}
+
+.contact .container form textarea {
+  height: 120px;
+}
+
+.contact .container form button {
+  width: 150px;
+  height: 40px;
+  border: 0;
+  font-size: 14px;
+  color: white;
+  margin: auto;
+}
+/*# sourceMappingURL=Contact.css.map */

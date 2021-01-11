@@ -1,0 +1,129 @@
+.main_header {
+  background-image: url("../../../images/BGchair.png");
+  width: auto;
+  height: 85vh;
+  position: relative;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.main_header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_header .container .header_left {
+  width: 50%;
+}
+
+.main_header .container .header_left h1 {
+  padding-bottom: 10px;
+}
+
+.main_header .container .header_left p {
+  font-size: 12px;
+  width: 65%;
+  line-height: 2;
+  padding-bottom: 17px;
+}
+
+.main_header .container .header_left .header_btn {
+  width: 150px;
+  height: 39px;
+  border: 0;
+  font-size: 13px;
+  color: white;
+}
+
+.main_header .container .header_right {
+  width: 50%;
+  text-align: right;
+  padding-bottom: 30px;
+}
+
+.main_header .container .header_right img {
+  width: 100%;
+}
+
+.main_header .header_items {
+  position: absolute;
+  bottom: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: white;
+}
+
+.main_header .header_items .header_item {
+  width: 31%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 40px;
+  border-radius: 4px;
+}
+
+.main_header .header_items .header_item svg {
+  width: 50px;
+  height: 50px;
+}
+
+.main_header .header_items .header_item .right {
+  width: 75%;
+  padding-left: 15px;
+}
+
+.main_header .header_items .header_item .right h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.main_header .header_items .header_item .right p {
+  margin: 0;
+  padding: 0;
+  color: white !important;
+  font-size: 11px;
+}
+
+.main_header .header_items .header_item_1 {
+  background-color: #1CC7C1;
+}
+
+.main_header .header_items .header_item_2 {
+  background-color: #3A4256;
+}
+
+.main_header .header_items .header_item_3 {
+  background-color: #1CC7C1;
+}
+
+.main_header .header_dark_color {
+  width: 30%;
+  height: 85vh;
+  background-color: #3A4256;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+/*# sourceMappingURL=Header.css.map */

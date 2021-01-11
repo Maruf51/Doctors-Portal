@@ -1,0 +1,140 @@
+.main_blog {
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.main_blog h3 {
+  color: #5FC7C7;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.main_blog h1 {
+  text-align: center;
+}
+
+.main_blog .blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.main_blog .blogs .blog {
+  width: 31%;
+  border: 0;
+  -webkit-box-shadow: 0 0 5px #e6e6e6;
+          box-shadow: 0 0 5px #e6e6e6;
+  border-radius: 5px;
+  position: relative;
+}
+
+.main_blog .blogs .blog:hover .visible {
+  opacity: 0;
+}
+
+.main_blog .blogs .blog:hover .hidden {
+  opacity: 1;
+}
+
+.main_blog .blogs .blog .visible {
+  padding: 30px 25px;
+  border-radius: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.main_blog .blogs .blog .visible .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_blog .blogs .blog .visible .detail img {
+  width: 60px;
+  height: 60px;
+}
+
+.main_blog .blogs .blog .visible .detail .in_detail {
+  margin-left: 15px;
+}
+
+.main_blog .blogs .blog .visible .detail .in_detail h5 {
+  color: #3C3C3E;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.main_blog .blogs .blog .visible .detail .in_detail p {
+  margin: 0;
+  color: #B3B2B5;
+  font-size: 12px;
+}
+
+.main_blog .blogs .blog .visible h4 {
+  color: #3C3C3E;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.main_blog .blogs .blog .visible p {
+  color: #B3B2B5;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.main_blog .blogs .blog .hidden {
+  padding: 30px 25px;
+  opacity: 0;
+  height: 100%;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.main_blog .blogs .blog .hidden .in_hidden h5 {
+  font-size: 15px;
+}
+
+.main_blog .blogs .blog .hidden .in_hidden h6 {
+  font-size: 11px;
+}
+
+.main_blog .blogs .blog .hidden .in_hidden h4 {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.main_blog .blogs .blog .hidden .in_hidden svg {
+  margin-top: 65px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.main_blog .blogs .blog .hidden .quot {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  width: 180px;
+  height: 150px;
+  opacity: .4;
+  z-index: -1;
+}
+/*# sourceMappingURL=Blog.css.map */

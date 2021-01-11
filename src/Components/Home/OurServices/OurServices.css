@@ -1,0 +1,58 @@
+.our_services {
+  margin-top: 120px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.our_services h3 {
+  color: #5FC7C7;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.our_services .card_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px;
+}
+
+.our_services .card_area .card {
+  width: 31%;
+  text-align: center;
+  padding: 35px;
+  border: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 5px;
+}
+
+.our_services .card_area .card:hover {
+  -webkit-box-shadow: 0px 0px 10px #e8e8e8;
+          box-shadow: 0px 0px 10px #e8e8e8;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.our_services .card_area .card img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.our_services .card_area .card h4 {
+  color: #565E69;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.our_services .card_area .card p {
+  color: #B5B5B5;
+  font-size: 12px;
+  padding-top: 5px;
+}
+/*# sourceMappingURL=OurServices.css.map */

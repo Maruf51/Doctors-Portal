@@ -1,0 +1,79 @@
+.testimonial {
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.testimonial .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.testimonial .head .head_left h3 {
+  color: #5FC7C7;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.testimonial .head .head_right img {
+  width: 170px;
+  height: 130px;
+}
+
+.testimonial .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.testimonial .message .card {
+  width: 32%;
+  padding: 30px 25px;
+  border: 0;
+  -webkit-box-shadow: 0 0 7px #e0e0e0;
+          box-shadow: 0 0 7px #e0e0e0;
+}
+
+.testimonial .message .card p {
+  font-size: 14px;
+  color: #6f6f6f;
+}
+
+.testimonial .message .card .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.testimonial .message .card .detail img {
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial .message .card .detail .in_detail {
+  margin-left: 15px;
+}
+
+.testimonial .message .card .detail .in_detail h3 {
+  color: #5EC5C5;
+}
+
+.testimonial .message .card .detail .in_detail p {
+  margin: 0;
+  color: #a7a6b1;
+}
+/*# sourceMappingURL=Testimonial.css.map */

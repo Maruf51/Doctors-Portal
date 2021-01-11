@@ -1,0 +1,63 @@
+.doctors {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.doctors h3 {
+  color: #5FC7C7;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.doctors .doctor_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.doctors .doctor_area .doctor {
+  text-align: center;
+  width: 30%;
+}
+
+.doctors .doctor_area .doctor img {
+  width: 75%;
+}
+
+.doctors .doctor_area .doctor h4 {
+  color: #3C3C3E;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 13px;
+}
+
+.doctors .doctor_area .doctor .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7px;
+  font-size: 11px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.doctors .doctor_area .doctor .number svg {
+  color: #5FC7C7;
+}
+
+.doctors .doctor_area .doctor .number p {
+  color: #B4B3B6;
+  margin: 0;
+}
+/*# sourceMappingURL=Doctors.css.map */

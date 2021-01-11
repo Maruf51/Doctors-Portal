@@ -1,0 +1,64 @@
+.appointment {
+    background: linear-gradient(#203047f2, #203047f2), url("../../../images/Mask\ Group\ 4.png");
+    background-size: cover;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            width: 40%;
+            position: relative;
+            height: 350px;
+    
+            img {
+                width: 104%;
+                position: absolute;
+                bottom: 0;
+                left: -20px;
+            }
+        }
+    
+        .right {
+            width: 60%;
+            padding: 50px 0 50px 25px;
+
+            h3 {
+                color: #5FC7C7;
+                font-size: 18px;
+                font-weight: 600;
+                margin: 0;
+                padding: 0;
+                padding-bottom: 20px;
+            }
+
+            h1 {
+                color: white;
+                margin: 0;
+                padding-bottom: 20px;
+            }
+
+            p {
+                color: white;
+                margin: 0;
+                padding-bottom: 20px;
+                font-size: 12px;
+                width: 85%;
+            }
+
+            .appointment_btn {
+                width: 130px;
+                height: 39px;
+                border: 0;
+                font-size: 13px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 500;
+            }
+        }
+    }
+}

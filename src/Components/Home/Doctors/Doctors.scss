@@ -1,0 +1,52 @@
+.doctors {
+    margin-top: 75px;
+    margin-bottom: 50px;
+
+    h3 {
+        color: #5FC7C7;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .doctor_area {
+        display: flex;
+        justify-content: space-evenly;
+
+        .doctor {
+            text-align: center;
+            width: 30%;
+
+            img {
+                width: 75%;
+            }
+
+            h4 {
+                color: #3C3C3E;
+                font-size: 18px;
+                font-weight: 600;
+                margin-top: 13px;
+            }
+
+            .number {
+                display: flex;
+                justify-content: center;
+                margin-top: 7px;
+                font-size: 11px;
+                align-items: center;
+
+                svg {
+                    color: #5FC7C7;
+                }
+
+                p {
+                    color: #B4B3B6;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
