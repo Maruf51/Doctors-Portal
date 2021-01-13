@@ -9,10 +9,10 @@ export const NavbarContext = createContext()
 
 function App() {
   const [darkNav, setDarkNav] = useState('home')
-  const [appointmentDate, setAppointmentDate] = useState(new Date())
-  console.log(appointmentDate)
+  // const [appointmentDate, setAppointmentDate] = useState(new Date())
+  // console.log(appointmentDate)
   return (
-    <NavbarContext.Provider value={[darkNav, setDarkNav], [appointmentDate, setAppointmentDate]}>
+    <NavbarContext.Provider value={[darkNav, setDarkNav]}>
       <Router>
         <Switch>
           <Route exact path="/">

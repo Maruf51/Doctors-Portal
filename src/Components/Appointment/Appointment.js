@@ -11,11 +11,11 @@ import 'react-calendar/dist/Calendar.css';
 
 const Appointment = () => {
     const [darkNav, setDarkNav] = useContext(NavbarContext)
-    const [appointmentDate, setAppointmentDate]  = useContext(NavbarContext)
+    // const [appointmentDate, setAppointmentDate]  = useContext(NavbarContext)
 
     setDarkNav('appointment')
     const [value, onChange] = useState(new Date());
-    setAppointmentDate(value)
+    // setAppointmentDate(value)
     return (
         <div className="appointment_page">
             <Navbar></Navbar>
