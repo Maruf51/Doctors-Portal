@@ -2,15 +2,21 @@ import React from 'react';
 import './Header.css';
 import headerChair from '../../../images/chair.png';
 import * as Icon from 'react-bootstrap-icons';
+import { useContext } from 'react';
+import { NavbarContext } from '../../../App';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const [darkNav, setDarkNav] = useContext(NavbarContext)
+
+    setDarkNav('home')
     return (
         <div className="main_header">
             <div className="container">
                 <div className="header_left">
                     <h1>Your New Smile <br/>Starts Here</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum magni incidunt ex voluptatum, maxime, laboriosam esse, exercitationem voluptas itaque neque quidem!</p>
-                    <button className="btn default_btn header_btn">GET APPOINTMENT</button>
+                    <Link to="/appointment"><button className="btn default_btn header_btn">GET APPOINTMENT</button></Link>
                 </div>
                 <div className="header_right">
                     <img src={headerChair} alt=""/>

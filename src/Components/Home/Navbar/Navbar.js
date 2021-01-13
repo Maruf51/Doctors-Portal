@@ -1,7 +1,11 @@
 import React from 'react';
+import { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { NavbarContext } from '../../../App';
 import './Navbar.css';
 
 const Navbar = () => {
+    const [darkNav, setDarkNav] = useContext(NavbarContext)
     return (
         <nav className="navbar navbar-expand-lg navbar-light fixed-top container">
             <div className="container-fluid">
@@ -11,15 +15,24 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
                         <div className="nav_left nav_part">
-                            <a className="nav-link" href="#">Home</a>
-                            <a className="nav-link" href="#">About</a>
-                            <a className="nav-link" href="#">Dental Services</a>
+                            <Link to="/">Home</Link>
+                            <Link to="/">About</Link>
+                            <Link to="/">Dental Services</Link>
+                            {
+                                darkNav === 'appointment' && <div className="d-flex">
+                                    <Link to="/">Reviews</Link>
+                                    <Link to="/">Blog</Link>
+                                    <Link to="/">Contact Us</Link>
+                                </div>
+                            }
                         </div>
-                        <div className="nav_right nav_part">
-                            <a className="nav-link" href="#">Reviews</a>
-                            <a className="nav-link" href="#">Blog</a>
-                            <a className="nav-link" href="#">Contact Us</a>
-                        </div>
+                        {
+                            darkNav === 'home' && <div className="nav_right nav_part">
+                                <Link to="/">Reviews</Link>
+                                <Link to="/">Blog</Link>
+                                <Link to="/">Contact Us</Link>
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
